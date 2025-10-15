@@ -67,7 +67,7 @@ const SignUp = () => {
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-3 mb-4">
               <img 
-                src="/title_logo.png" 
+                src="/title_logo.png?v=1" 
                 alt="SAHA Title Logo" 
                 className="w-12 h-12 object-contain"
               />

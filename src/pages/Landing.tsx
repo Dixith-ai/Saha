@@ -12,7 +12,7 @@ const Landing = () => {
       <section className="relative overflow-hidden py-20 md:py-32 min-h-screen flex items-center">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/landing-background.jpg')" }}
+          style={{ backgroundImage: "url('/landing-background.jpg?v=1')" }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-success/10 to-accent/20"></div>
         
@@ -30,7 +30,7 @@ const Landing = () => {
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8 animate-fade-in-up">
               <img 
-                src="/title_logo.png" 
+                src="/title_logo.png?v=1" 
                 alt="SAHA Title Logo" 
                 className="w-20 h-20 md:w-24 md:h-24 object-contain float-animation"
               />

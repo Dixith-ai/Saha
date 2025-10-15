@@ -26,7 +26,7 @@ const Navigation = ({ isAuthenticated = false, onLogout }: NavigationProps) => {
         <Link to={isAuthenticated ? "/dashboard" : "/"} className="flex items-center group">
           <div className="relative">
             <img 
-              src="/main_logo.png" 
+              src="/main_logo.png?v=1" 
               alt="SAHA Logo" 
               className="w-14 h-14 object-contain transition-transform duration-300 group-hover:scale-110"
             />
