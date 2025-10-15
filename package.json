@@ -11,11 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "start:backend": "cd backend && node server.js",
-    "start:frontend": "npm run dev",
-    "setup": "npm install && cd backend && npm install",
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

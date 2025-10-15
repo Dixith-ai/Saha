@@ -53,58 +53,32 @@ A comprehensive platform for students to collaborate, share resources, and manag
 - **MongoDB Atlas** - Cloud database service
 - **Collections**: Users, Marketplace, Projects, Achievements, Notifications
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### **Prerequisites**
-- Node.js (v16 or higher)
-- MongoDB Atlas account
-- Git
+### **Local Development**
+```bash
+# Install dependencies
+npm install
+cd backend && npm install && cd ..
 
-### **Installation**
+# Start backend
+cd backend && node server.js
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/saha.git
-   cd saha
-   ```
+# Start frontend (new terminal)
+npm run dev
+```
 
-2. **Install dependencies**
-   ```bash
-   # Install frontend dependencies
-   npm install
-   
-   # Install backend dependencies
-   cd backend
-   npm install
-   cd ..
-   ```
+### **Environment Setup**
+Create `backend/.env`:
+```env
+MONGODB_URI=your_mongodb_atlas_connection_string
+PORT=5000
+NODE_ENV=development
+```
 
-3. **Environment Setup**
-   
-   Create a `.env` file in the `backend` directory:
-   ```env
-   MONGODB_URI=your_mongodb_atlas_connection_string
-   PORT=5000
-   NODE_ENV=development
-   ```
-
-4. **Start the application**
-   
-   **Terminal 1 - Backend:**
-   ```bash
-   cd backend
-   npm start
-   ```
-   
-   **Terminal 2 - Frontend:**
-   ```bash
-   npm run dev
-   ```
-
-5. **Access the application**
-   - Frontend: `http://localhost:3000`
-   - Backend API: `http://localhost:5000`
-   - Network Access: `http://your-ip:3000` (for friends)
+### **Access**
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:5000`
 
 ## 📁 Project Structure
 
@@ -206,18 +180,15 @@ Perfect for collaborative development and testing with friends!
 
 ## 🚀 Deployment
 
-### **Frontend Deployment**
-- **Vercel**: Recommended for React applications
-- **Netlify**: Alternative deployment option
-- **GitHub Pages**: Free static hosting
+### **Frontend → Vercel**
+1. Connect GitHub repository to Vercel
+2. Set environment variable: `VITE_API_BASE_URL=https://your-backend-url.com`
+3. Deploy
 
-### **Backend Deployment**
-- **Railway**: Easy Node.js deployment
-- **Heroku**: Popular platform for Node.js
-- **DigitalOcean**: VPS deployment option
-
-### **Database**
-- **MongoDB Atlas**: Cloud database (already configured)
+### **Backend → Railway/Heroku/Render**
+1. Deploy backend separately
+2. Get backend URL
+3. Update frontend environment variable
 
 ## 🤝 Contributing
 
