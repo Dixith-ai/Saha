@@ -2,7 +2,7 @@
 
 A comprehensive platform for students to collaborate, share resources, and manage academic projects. Built with modern web technologies and designed for seamless user experience.
 
-![SAHA Logo](images/main_logo.png)
+![SAHA Logo](public/main_logo.png)
 
 ## ✨ Features
 
