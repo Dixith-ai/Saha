@@ -39,7 +39,7 @@ const Dashboard = () => {
         <div className="mb-12 flex flex-col sm:flex-row items-start sm:items-center gap-6 animate-fade-in-up">
           <div className="relative">
             <img 
-              src="/images/title_logo.png" 
+              src="/title_logo.png" 
               alt="SAHA Title Logo" 
               className="w-20 h-20 object-contain flex-shrink-0 float-animation"
             />
